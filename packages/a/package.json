@@ -1,0 +1,16 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc src/index.ts --outDir dist",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "dependencies": {
+    "b": "^1.0.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2"
+  }
+}

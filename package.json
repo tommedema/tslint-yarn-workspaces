@@ -1,0 +1,8 @@
+{
+  "name": "200180719-yarn-bin",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true
+}

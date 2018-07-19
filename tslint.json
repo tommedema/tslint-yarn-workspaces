@@ -1,0 +1,21 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:all"],
+  "jsRules": {},
+  "rules": {
+    "no-unused-variable": false, // deprecated, using noUnusedLocals in tsconfig instead
+    "member-ordering": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "type-literal-delimiter": false,
+    "no-submodule-imports": false,
+    "one-variable-per-declaration": false,
+    "no-use-before-declare": false,
+    "completed-docs": false,
+    "typedef": false,
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single"]
+  },
+  "rulesDirectory": [],
+  "exclude": ["**/*.d.ts"]
+}
